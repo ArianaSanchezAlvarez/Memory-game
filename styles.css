@@ -1,12 +1,13 @@
 #grid{
     width: 200px;
     height: 150px;
-    display: flex;
+    display: table;
     flex-wrap: wrap;
+    box-sizing: border-box;
 }
 img{
     width: 200px;
     height: 150px;
-    display: flex;
+    display: table-cell;
     flex-wrap: wrap;
 }
